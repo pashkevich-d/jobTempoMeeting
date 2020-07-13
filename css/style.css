@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.home-col {
+  text-align: center;
+  width: 30%;
+}
+
+.home-col-text {
+  color: #ff8800;
+}
+
+.home-img {
+  width: 100%;
+  text-align: center;
+}
+
+.home-img img {
+  width: 50%;
+}
+
+.home-link {
+  display: block;
+  margin: auto;
+  background-color: #05058b;
+  padding: 5px;
+  border-radius: 10px;
+  color: #ff8800;
+  text-decoration: none;
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */
