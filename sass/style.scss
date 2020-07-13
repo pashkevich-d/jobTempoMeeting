@@ -5,12 +5,15 @@
 .home {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   &-col {
     text-align: center;
     width: 30%;
+    max-width: 350px;
     &-text {
       color: rgb(255, 136, 0);
+      min-height: 54px;
+      margin-top: 32px;
     }
   }
   &-img {

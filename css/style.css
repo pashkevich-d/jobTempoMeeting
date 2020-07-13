@@ -5,16 +5,19 @@
 .home {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .home-col {
   text-align: center;
   width: 30%;
+  max-width: 350px;
 }
 
 .home-col-text {
   color: #ff8800;
+  min-height: 54px;
+  margin-top: 32px;
 }
 
 .home-img {
