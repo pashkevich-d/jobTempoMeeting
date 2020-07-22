@@ -93,4 +93,14 @@
       width: 15%;
     }
   }
+  &-clients {
+    &-list {
+      display: flex;
+      justify-content: space-around;
+      img {
+        width: 15%;
+        object-fit: contain;
+      }
+    }
+  }
 }
